@@ -1,0 +1,70 @@
+
+
+body{
+	margin:0;
+	padding:0;
+    box-sizing: border-box;
+    background: aliceblue;
+	
+}
+
+.input{
+    width: 500px;
+    margin-bottom: 1rem;
+    margin-top: .5rem;
+   
+}
+
+.col_col{
+    margin-bottom: 1rem;
+    padding-top: 1.5rem;
+}
+.my-section,
+.section-two{
+    margin: 0 1rem 0.5rem 1rem;
+}
+
+.section-two{
+margin-bottom: 1rem;
+}
+
+button{
+    margin-bottom: 1rem;
+    
+}
+
+#myTodo{
+    display:inline-block;
+    margin-top:2rem;
+  }
+  
+  #myTodo li{
+    text-align:left;
+    margin:0.5rem;
+    padding:0.3rem;
+    line-height:1.5rem;
+  }
+  
+  #myTodo li:nth-child(odd) {
+    background: gold;
+   
+  }
+  
+  #myTodo li:nth-child(even) {
+    background: pink;
+  }
+
+  li:nth-child(3n+1)::before{
+
+    content: "❤️   ";
+  }
+
+  li:nth-child(3n+2)::before{
+
+    content: "🥰   ";
+  }
+
+  li:nth-child(3n+3)::before{
+
+    content: "😎   ";
+  }
